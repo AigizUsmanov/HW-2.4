@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     @IBOutlet var greenLabel: UILabel!
     @IBOutlet var blueLabel: UILabel!
     
+    
 
     @IBAction func redSliderChange(_ sender: UISlider) {
         redSliderValue.text = String(format: "%.2f", sender.value * 1.0)
